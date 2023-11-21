@@ -58,6 +58,11 @@ public class Main {
             return null;
         }
 
+        // 妹妹体弱
+        if (diffPosList.size() == 1 && diffPosList.contains(3)) {
+            return null;
+        }
+
         if (case1[diffPosList.get(0)] == 0) {
             return 1;
         } else {
